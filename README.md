@@ -1,4 +1,4 @@
 ashutosh
 ========
 
-Software/hardware stuff.
+Software/hardware stuff for Linux System.
