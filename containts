@@ -1,0 +1,60 @@
+Introduction to Hardware Hacking (w/ AVR) - Level I
+--------------------------------
+Pre-req: vi, gcc, basic make, logic development & analysis
+Topic 0: Revision: Bit operations (Or, club with topic #2), Dry run & Debugging
+Topic 1: Setting up cross compilation env, downloading, ... - tools, make, ... 
+    - avr-gcc, avr-libc, avrdude, bootloadHID
+    - Docs: avr-gcc, AVR datasheet
+Topic 2: AVR Memories, Registers, Ports
+    - Docs: DDK schematic
+    - LED blinking - Delays
+    - Switch reading
+    - Pin reading (Hang state) - (Int/Ext) Pull ups/downs
+Topic 3: AVR h/w - Timer
+    - Decoding data sheet
+    - Basic timer to achieve delay (in ms), and then a second - ISR, volatile, ... 
+Topic 4: AVR external interfacing - CLCD or SSD 
+    - Combining multiple functionalities - headers, library code, ... - CLCD or SSD interfacing
+    - Clock / Stop watch implentation
+    - Clock's initial time setting / Stop watch on-off (Handling switch debouncing)
+Topic 5: AVR h/w with ext interfacing - PWM (aka DAC)
+    - Decoding data sheet
+    - PWM Calculation & Generation - Use of multimeter for voltage checks
+    - LED intensity control (optionally play w/ RGB LED), Fan speed control (using a DC motor) - switch debouncing
+Topic 6: AVR Serial Interfacing & Control
+    - Serial interfacing w/ PC
+    - Serial Shell Control w/ Commands
+    - Automating w/ Application (optionally providing a web interface)
+Topic 7: AVR h/w with ext interfacing - ADC
+    - ADC Calculation & Decoding
+    - Temperature sensor: LM35
+    - Temperature controlled fan
+Topic 8: Do a mini-project
+
+Hardware Hacking for Fun (w/ AVR) - Level II, III
+------------------------
+Topic 1: Advanced Topics: Sensors
+    - Visible Light Sensors
+    - IR Sensors
+    - Pressure Sensors
+    - ...
+Topic 2: Advanced Topics: Motors
+    - Stepper Motors - Current Drivers
+    - Robotic Controls & Mathematics
+    - Optionally, the mechanical aspect
+Topic 3: Advanced Topics: Interfaces (Optional, could be considered as projects)
+    - GSM - Mobile control - Android
+    - WiFi/Zigbee - Network control - Web Design
+    - GPRS - Position tracking
+    - Gyroscope - Motion tracking
+
+Hardware Hacking for Geeks (w/ AVR) - Level IV
+--------------------------
+Topic 1: Advanced Topics: Power Sources
+    - Batteries - Ratings, Choosing, Re-chargeability, ... - Chargers
+    - Regulators - Step down, Switching, ...
+    - AC - AC to DC, Bridges, Transformers, ...
+    - Non-conventional - Solar, Wind, ...
+Topic 2: Advanced Topics: Getting down to basics
+    - ICs: Opamps, 555, Gates, ...
+    - Transistors
