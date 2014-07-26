@@ -1,4 +1,4 @@
 ashutosh
 ========
 
-Software/harware stuff.
+Software/hardware stuff.
